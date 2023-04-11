@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+
+<body background="background.jpg">
+    
+	<!-- This is an image tag -->
+	<img src="image.jpg" alt="My Image" width="500" height="300">
+
+	<!-- This is an image map -->
+	<map name="myMap">
+		<area shape="rect" coords="0,0,50,50" href="page1.html">
+		<area shape="rect" coords="50,50,100,100" href="page2.html">
+	</map>
+	<img src="image.jpg" usemap="#myMap" alt="My Image with Map" width="500" height="300">
+
+	<!-- This is a background image -->
+	<div style="background-image:url('background.jpg');">
+		<!-- Content goes here -->
+	</div>
+
+	<!-- This is a font awesome icon -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<i class="far fa-address-book"></i>
+
+
+	<!-- This is an anchor tag with an external source -->
+	<a href="https://www.example.com">Visit Example Website</a>
+
+
+	<!-- This is an anchor tag to go to the top of the page -->
+	<a href="#top">Go to top</a>
+
+
+	<!-- Page content goes here -->
+	<h1>Welcome to my webpage</h1>
+	<p>This is my webpage. It contains lots of interesting content.</p>
+
+
+	<!-- Anchor tag to go to the top of the page -->
+	<a id="top"></a>
+    
+</body>
+
+</html>
